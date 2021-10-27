@@ -5,9 +5,11 @@ class Animal {
     Animal(String name) {
       this.name = name;
     }
+
     Animal() {
         this.name = "без имени";
     }
+
     protected String getKind(){
      return "Животное";
     }
